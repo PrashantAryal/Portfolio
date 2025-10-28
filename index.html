@@ -1,427 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PRASHANT ARYAL</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Prashant Aryal</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Prashant Aryal</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Prashant Aryal's profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Prashant Aryal</h1>
-        <p class="section__text__p2">Data Science Enthusiast</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/CV.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/in/prashant-aryal-94148926a/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/PrashantAryal'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.JPG"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>Software Intern (3Months)<br />LIS Nepal Pvt. Ltd.</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Bachelor of Science in CSIT <br />High School: Science</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Passionate and results-driven professional with a knack for leveraging data-driven insights to craft impactful strategies. Applying strategic thinking, strong analytical skills, and enthusiasm for data to drive initiatives and contribute to the success of a forward-thinking team.
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Programming Languages</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C#</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>OOP with C++</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C Programming</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Familiar With</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SQL</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>ML</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Power BI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Excel</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python Libraries</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Github</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-0.png"
-                alt="Project 0"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">SmartAgro: Plant Disease Classification System</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/PrashantAryal/SmartAgro-Plant-Disease-Classification-System'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/PrashantAryal/SmartAgro-Plant-Disease-Classification-System'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Aryal | AI/ML Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Email Spam Classifier using ML</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/PrashantAryal/Email-Spam-Classifier'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/PrashantAryal/Email-Spam-Classifier'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Diabetes Prediction using ML</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/PrashantAryal/Diabetes-Prediction'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/PrashantAryal/Diabetes-Prediction'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-<!--           <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.jpg"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">TicketFlix Movie Booking Website</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/PrashantAryal/TicketFlix'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/PrashantAryal/TicketFlix'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div> -->
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <!-- <a href="#about">About Me</a> -->
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#publications">Publications</a>
+            <!-- <a href="#skills">Skills</a> -->
+            <a href="#contact">Contact</a>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='#contact'"
-      />
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+    </nav>
+   <section id="home" style="max-width: 1000px; margin: 0 auto; padding: 20px; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 40px;">
+        <div style="flex: 0 0 200px; text-align: center; padding: 10px;">
+            <img src="assets/profile_photo.png" alt="Prashant Aryal" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; margin: 0 auto 15px; display: block;">
+            <div style="text-align: center; padding-left: 10px;">
+                <h1 style="margin: 0 0 5px; color: #333; font-size: 1.6em; text-align: center;" class="profile-name">Prashant Aryal</h1>
+                <p style="color: #666; margin: 5px 0; font-size: 1em; line-height: 1.4; text-align: center;" class="profile-title">AI/ML Engineer</p>
+                <p style="color: #777; margin: 5px 0 0; font-size: 1em; text-align: center;" class="profile-location">Kathmandu, Nepal</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Right Column - About Content -->
+    <div style="flex: 1; min-width: 300px; padding: 10px;">
+        <h2 class="about-me-title" style="color: #333; margin: 0 0 15px 0; padding-bottom: 8px; border-bottom: 2px solid #f0f0f0; font-size: 1.3em;">About Me</h2>
+        <p style="line-height: 1.7; color: #555; margin: 0;">
+            I'm an Associate AI/ML Engineer currently working at Sajilo Ventures Pvt. Ltd., with a Bachelor's degree in Computer Science and Information Technology from St. Xavier’s College, Tribhuvan University. I have a strong foundation in computer science, with hands-on experience in machine learning, deep learning, and large language models to build practical, AI-powered solutions. I've worked on projects ranging from plant disease detection to AI chatbots, and have co-authored a research paper on corn leaf disease diagnosis. I'm always eager to keep learning and growing in the fields of Data Science and AI. Outside of work, you'll often find me playing football, cricket, or table tennis, exploring new places, or simply enjoying music and nature.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="item">
+        <div class="item-header">
+            <strong>Bachelor of Science in Computer Science and Information Technology</strong>
+            <span>2019 - 2024</span>
+        </div>
+        <div>St. Xavier's College, Tribhuvan University, Kathmandu, Nepal</div>
+        <div class="coursework">
+            <strong>Major courses:</strong> Database Management System, Artificial Intelligence, Design, Analysis and Algorithm, Data Warehousing & Data Mining, Data Structure and Algorithm
+        </div>
+    </div>
+
+    <div class="item" style="margin-top: 20px;">
+        <div class="item-header">
+            <strong>Higher Secondary School (Grade XI & XII)</strong>
+            <span>2017 - 2019</span>
+        </div>
+        <div>National School of Sciences (NIST), Lainchour, Kathmandu, Nepal</div>
+        <div class="coursework">
+            <strong>Major courses:</strong> Physics, Chemistry, Mathematics, Computer Science
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+        <h2>Work Experience</h2>
+        <div class="item">
+            <div class="item-header">
+                <strong>Associate AI/ML Engineer at Sajilo Ventures Pvt. Ltd.</strong>
+                <span>March 2025 – Present</span>
+            <ul>
+                <li>Developing a real estate chatbot for a Dubai-based client using FastAPI, MongoDB, and FAISS. Utilizing Alibaba-NLP embeddings from HuggingFace to encode property data and Llama 3.3 70B LLM through Groq's API to process user queries in natural language, delivering real-time, accurate responses for property-related inquiries. </li>
+                <li>Researched and implemented saliency-based object detection and image augmentation using OpenCV and TensorFlow, applying bounding box expansion, image cropping, and data augmentation techniques (rescaling, random rotations, zooms, shifts, flips, and brightness adjustments) to enhance deep learning models for anti-poaching monitoring.</li>
+
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <strong>Data Science Intern (Virtual) at CodSoft</strong>
+                <span>November 2024 – December 2024</span>
+            <ul>
+                <li>Developed supervised learning models for classification, regression tasks and predictive analytics in applied data science projects using Python, Scikit-learn, NumPy, and Pandas.</li>
+                <li>Performed data preprocessing, feature engineering, and model evaluation techniques to solve real-world data problems, with a strong focus on practical implementation.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <strong>Software Intern at LIS Nepal Pvt. Ltd</strong>
+                <span>March 2024 – June 2024</span>
+            <ul>
+                <li>Worked on data integration projects using Workato, focusing on retail operations such as order management systems (OMS) and transfer processes for Bluemercury, a US-based luxury cosmetics retailer.</li>
+                <li>Gained practical experience in Python, SQL, Data Warehousing, and ETL (Extract, Transform, Load) processes.</li>
+                <li>Contributed to testing processes, prepared UTDs (User Test Documents), and enhanced quality assurance efforts.</li>
+            </ul>
+        </div>
     </section>
+
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="item">
+            <div class="item-header">
+                <strong>BudgetGPT: Nepali Fiscal Policy Chatbot</strong>
+                <a href="https://github.com/PrashantAryal/BudgetGPT" target="_blank" style="margin-left: 8px; color: #24292e; font-size: 1.1rem;">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <ul>
+                <li>Developed an AI chatbot to answer queries related to Nepal's national budget, offering fast access to fiscal data from the official Nepal Government Budget speech (English and Nepali version) through semantic search powered by FAISS.</li>
+                <li>Integrated LangChain, HuggingFace embeddings (BAAI/bge-m3 for English and All-MiniLM-L6-v2-Nepali for Nepali), CTransformers, LlamaCpp and FAISS to enable efficient large language model (LLM) inference and accurate bilingual text generation across both Mistral-7B (for English) and Nepali-LLM-Instruct (for Nepali).</li>
+                <li>Deployed a Flask-based web application with a responsive UI, enabling multiple user queries in a single session and maintaining in-memory chat history.</li>
+            </ul>
+            <div class="tech-stack">
+                <strong>Technologies:</strong> Python, LangChain, HuggingFace, FAISS, CTransformers, LlamaCpp, Mistral-7B (GGUF), Nepali-LLM-Instruct (GGUF), Flask, langdetect, PyPDF2
+            </div>
+        </div>
+
+        <div class="item" style="margin-top: 25px;">
+            <div class="item-header">
+                <strong>SmartAgro: Plant Leaf Disease Classification System</strong>
+                <a href="https://github.com/PrashantAryal/SmartAgro-Plant-Disease-Classification-System" target="_blank" style="margin-left: 8px; color: #24292e; font-size: 1.1rem;">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <ul>
+                <li>Developed a Plant Disease Classification system using Convolutional Neural Network (CNN) architectures such as ResNet-50V2 and VGG-19 to classify diseases affecting plant leaves, demonstrating their effectiveness in agricultural image classification.</li>
+                <li>Integrated the ResNet-50V2 model into a Flask-based web application, offering farmers and agricultural experts a user-friendly interface to access and utilize the system for disease diagnosis and management.</li>
+            </ul>
+            <div class="tech-stack">
+                <strong>Technologies:</strong> CNN, TensorFlow, Transfer Learning (ResNet-50, VGG-19), Google Colab, Flask
+            </div>
+        </div>
+
+        <div class="item" style="margin-top: 25px;">
+            <div class="item-header">
+                <strong>Email Spam Classifier using Machine Learning</strong>
+                <a href="https://github.com/PrashantAryal/Email-Spam-Classifier" target="_blank" style="margin-left: 8px; color: #24292e; font-size: 1.1rem;">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <ul>
+                <li>Applied machine learning algorithms to tackle spam classification problems, comparing their performance to gain deeper insights into the issue.</li>
+                <li>Designed a web application using Flask, leveraging the Multinomial Naive Bayes Algorithm for its high accuracy in effectively filtering email spams.</li>
+            </ul>
+        </div>
+
+        <div class="item" style="margin-top: 25px;">
+            <div class="item-header">
+                <strong>Diabetes Prediction using Machine Learning</strong>
+                <a href="https://github.com/PrashantAryal/Diabetes-Prediction" target="_blank" style="margin-left: 8px; color: #24292e; font-size: 1.1rem;">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <ul>
+                <li>Utilized the K-Nearest Neighbors Classifier to develop a model that incorporates various parameters such as glucose levels, blood pressure, skin thickness, insulin levels, and body mass index to predict whether an individual has diabetes.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="publication">
+            <!-- <p class="publication-title">2025 <strong>Aryal, P.</strong> , Karmacharya, R., & Giri, P. <em>"Leveraging the Performance of Deep Learning Models for Corn Leaf Disease diagnosis using DenseNet201 and Xception"</em>.</p> -->
+            <p class="publication-title">Karmacharya, R., <strong>Aryal, P.</strong>, & Giri, P. (2025). <em>Leveraging the performance of Deep Learning Models for Corn Leaf Disease Diagnosis using DenseNet201 and Xception.</em> SXC Journal, 2(1), 83–95.</p>
+            <!-- <p class="publication-meta">SXC Journal, Volume 2.</p> -->
+            <a href="https://doi.org/10.3126/sxcj.v2i1.81673" target="_blank">DOI: 10.3126/sxcj.v2i1.81673</a>
+        </div>
+
+    </section>
+
+    <!-- <section id="skills">
+        <h2>Skills</h2>
+        <div class="item">
+            <ul>
+                <li><strong>Languages:</strong> Python, SQL, C/C++</li>
+                <li><strong>ML/DL:</strong> TensorFlow, PyTorch, Scikit-learn, OpenCV</li>
+                <li><strong>NLP:</strong> Transformers, LangChain, RAG</li>
+                <li><strong>Tools:</strong> Git, Docker, AWS, FastAPI, MongoDB</li>
+            </ul>
+        </div>
+    </section> -->
+
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:aryalprashant3@gmail.com">aryalprashant3@gmail.com</a></p>
+        <h2>Get In Touch</h2>
+        <p>I'm always open to discussing new projects, research opportunities, or potential collaborations.</p>
+        
+        <div style="margin-top: 0.75rem;">
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem 1.5rem;">
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                    <strong>Email:</strong>
+                    <a href="mailto:aryalprashant3@gmail.com">aryalprashant3@gmail.com</a>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                    <strong>Phone:</strong>
+                    <a href="tel:+9779861834271">+977-9861834271</a>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                    <strong>LinkedIn:</strong>
+                    <a href="https://linkedin.com/in/prashantaryal/" target="_blank" rel="noopener noreferrer">linkedin.com/in/prashantaryal</a>
+                </div>
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/PrashantAryal" target="_blank" rel="noopener noreferrer">github.com/PrashantAryal</a>
+                </div>
+            </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://linkedin.com/in/prashant-aryal-94148926a/">LinkedIn</a></p>
-        </div>
-      </div>
     </section>
+
     <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2025 Prashant Aryal. All Rights Reserved.</p>
+        <p style="margin: 0.2rem 0; text-align: center;">Copyright © 2025 Prashant Aryal. All rights reserved.</p>
     </footer>
     <script src="js/script.js"></script>
-  </body>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
 </html>
